@@ -38,14 +38,19 @@
 <style lang="scss" scoped>
 .top-container{
 	padding-top: 40px;
+	overflow-x: hidden;//去滚动条
+	padding-bottom: 40px;
 }
-.v-enter,
+.v-enter{
+	opacity: 0;
+	transform: translateX(100%);
+}
 .v-leave-to{
 	opacity: 0;
-	transform: translateX(-80px);
+	transform: translateX(-100%);
 }
 .v-enter-active,
 .v-leave-active{
-	transition: all 0.5s ease;
+	transition: all 0.4s ease;
 }
 </style>

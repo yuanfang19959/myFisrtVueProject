@@ -6,6 +6,12 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import router from './router'
 
+//导入vue-resource
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+Vue.http.options.root = 'http://106.14.135.233:8080/'
+Vue.http.options.emulateJSON = true;
+
 //导入mint-ui,按需导入
 import { Header, Swipe, SwipeItem } from 'mint-ui'
 Vue.component(Header.name,Header)

@@ -7,7 +7,7 @@ import Search from './components/Search.vue'
 import Shopcar from './components/Shopcar.vue'
 import newsMain from './components/news/newsMain.vue'
 import newsInfo from './components/news/newsInfo.vue'
-
+import beau from './components/beautiful/beau.vue'
 // 3. 创建路由对象
 var router = new VueRouter({
   routes: [
@@ -17,7 +17,8 @@ var router = new VueRouter({
     { path:'/shopcar', component:Shopcar },
     { path:'/search', component:Search },
     { path:'/home/news', component:newsMain },
-    { path:'/home/news/newsinfo/:id', component:newsInfo }
+    { path:'/home/news/newsinfo/:id', component:newsInfo },
+		{ path:'/home/beautiful', component:beau }
   ],
   linkActiveClass:'mui-active'
 })

@@ -1,0 +1,24 @@
+{
+	"info":[
+				{   
+					"src":"http://106.14.135.233:8080/pro/img/1.jpg",
+					"w":600,
+					"h":400
+				},
+				{   
+					"src":"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2735633715,2749454924&fm=27&gp=0.jpg",
+					"w":600,
+					"h":400
+				},
+				{   
+					"src":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2332766625,3603062590&fm=85&app=63&f=JPG?w=121&h=75&s=AB28E2064677362F860FCE610300607B",
+					"w":600,
+					"h":400
+				},
+				{   
+					"src":"https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=4139065328,2270814628&fm=85&s=FAB3E148CEAF6B3C9F64F71A030080DD",
+					"w":600,
+					"h":400
+				}
+	]
+}

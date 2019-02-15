@@ -32,7 +32,7 @@ export default {
     },
     methods:{
         getFlex(){
-            this.$http.post('buyCar/getProFlex',{'spID':this.id})
+            this.$http.post('http://106.14.135.233:8080/buyCar/getProFlex',{'spID':this.id})
             .then(resp=>{
                 this.piclist = resp.body
 				console.log(resp.body)

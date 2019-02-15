@@ -29,7 +29,7 @@ export default {
     },
     methods:{
         getnewsList(){
-            this.$http.get("buyCar/Give")
+            this.$http.get("http://106.14.135.233:8080/buyCar/Give")
             .then(resp=>{
                 console.log(resp.body)
                 this.newsList = resp.body

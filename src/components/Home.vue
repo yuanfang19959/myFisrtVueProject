@@ -37,9 +37,11 @@
 		                    <router-link to="/home/beautiful"><img src="../img/menu2.png" >
 		                    <div class="mui-media-body">美图分享</div>
 							</router-link></li>
-		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+							<router-link to="/home/mall">
 		                    <img src="../img/menu3.png" >
-		                    <div class="mui-media-body">Chat</div></a></li>
+		                    <div class="mui-media-body">购物商城</div>
+							</router-link></li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
 		                    <img src="../img/menu4.png" >
 		                    <div class="mui-media-body">location</div></a></li>

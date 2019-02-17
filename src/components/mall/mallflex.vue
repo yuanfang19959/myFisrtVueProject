@@ -13,13 +13,13 @@
 		</div>
 		
 		<!-- 评论区域 -->
-		<chatarea></chatarea>
+	<!-- 	<chatarea></chatarea> -->
     </div>
 </template>
 
 <script>
 	//导入评论组件
-import chat from '../sub/Chat.vue'
+// import chat from '../sub/Chat.vue'
 export default {
     data(){
         return {
@@ -39,9 +39,9 @@ export default {
             })
         }
     },
-	components:{
-		'chatarea':chat
-	}
+// 	components:{
+// 		'chatarea':chat
+// 	}
 }
 </script>
 

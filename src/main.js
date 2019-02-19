@@ -39,6 +39,8 @@ import app from './App.vue'
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
+//导入vuex
+import store from './store.js'
 
 var vm = new Vue({
 	el:'#app',
@@ -47,6 +49,7 @@ var vm = new Vue({
 	render:function(c){
 		return c(app)
 	},
-	router:router
+	router:router,
+	store
 })
 

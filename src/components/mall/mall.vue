@@ -18,7 +18,7 @@
 
 		<!-- 使用编程式导航方式 -->
 		<div class="goods" v-for="item in list" :key="item.id" @click="getP(item.id),savePrice(item.price)">
-			<img :src="item.pic">
+			<img v-lazy="item.pic">
 			<h1>{{item.name}}</h1>
 			<div class="title">
 				<p class="price">
@@ -50,7 +50,8 @@
 		},
 		methods: {
 			getList() {
-				this.$http.get("http://106.14.135.233:8080/buyCar/Give")
+				// this.$http.get("http://106.14.135.233:8080/buyCar/Give")
+				this.$http.get("../src/data/pic.json")
 					.then(resp => {
 						this.list = resp.body
 					})
@@ -64,7 +65,7 @@
 				this.getNext()
 			},
 			getNext(){
-				this.$http.get("../src/data/goods.json")
+				this.$http.get("../src/data/pic.json")
 					.then(resp => {
 						this.list = this.list.concat(resp.body)
 					})
@@ -97,7 +98,14 @@
 			padding-top: 2px;
 
 			img {
-				width: 100%;
+				width:100%;
+				background-color: antiquewhite;
+				
+			}
+			img[lazy=loading] {
+				width: 196px;
+				height: 196px;
+				margin: auto;
 			}
 
 			h1 {

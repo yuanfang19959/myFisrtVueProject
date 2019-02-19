@@ -17,3 +17,4 @@
 
 ###mui写的不是很严谨，里面会有代码会和vue冲突，这里需要装一个阻止使用严格模式的插件babel-plugin-transform-remove-strict-mode
 
+###小球动画优化思路，当不同屏幕分辨率的时候，小球就不能如愿以偿的到达数字标，这时用过getBoundingCilentRect()方法可以解决这个问题，通过top和left求出相对距离

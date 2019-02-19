@@ -2,14 +2,15 @@
     <div>
 		<!-- 图片详情标题区域 -->
 		<div v-for="item in piclist" :key="item.p1">
-			<img  :src="item.p1">
+			<img  v-lazy="item.p1">
+			
 			<p>{{ item.pName }}</p>
 			<span class="title">
 				<span>杭州-千岛湖</span><span>快递：包邮</span>
 			</span>
 			<div class="flexforpro">详情</div>
-			<img :src="item.p2">
-			<img :src="item.p3">
+			<img v-lazy="item.p2">
+			<img v-lazy="item.p3">
 		</div>
 		
 		<!-- 评论区域 -->
@@ -53,7 +54,8 @@ div{
 	$padding:10px;
 	img{
 		width: 100%;
-		height: 100%
+		height: 100%;
+		background-color:cornflowerblue;
 	}
 	p{
 		font-size: 18px;

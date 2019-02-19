@@ -4,7 +4,9 @@
         <ul class="mui-table-view"> 
 				<li class="mui-table-view-cell mui-media" v-for="item in newsList" :key="item.id">
 					<router-link :to="'/home/news/newsinfo/'+item.id">
-						<img class="mui-media-object mui-pull-left" :src="item.pic">
+						<!-- <img class="mui-media-object mui-pull-left" :src="item.pic"> -->
+						<img class="mui-media-object mui-pull-left" v-lazy="item.pic">
+						<!-- <img v-lazy="c.url"> -->
 						<div class="mui-media-body">
 							<h1>{{ item.name }}</h1>
                             <p class='mui-ellipsis'>
@@ -18,6 +20,8 @@
 </template>
 
 <script>
+import mui from '../../lib/mui/js/mui.js'
+	
 export default {
     data(){
         return {
@@ -27,6 +31,11 @@ export default {
     created(){
         this.getnewsList()
     },
+	mounted() {
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+		})
+	},
     methods:{
         getnewsList(){
             this.$http.get("http://106.14.135.233:8080/buyCar/Give")
@@ -43,6 +52,10 @@ export default {
 <style lang="scss" scoped>
 .mui-table-view{
     li{
+		img{
+				background-color: cornflowerblue;
+		}
+	
         h1{
             font-size: 14px;
         }
@@ -54,4 +67,9 @@ export default {
         }
     }
 }
+img[lazy=loading] {
+				width: 40px;
+				height: 40px;
+				margin: auto;
+			}
 </style>

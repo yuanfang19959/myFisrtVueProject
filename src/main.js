@@ -27,6 +27,7 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 Vue.use(MintUI)
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 //安装图片预览插键
 import VuePreview from 'vue-preview'

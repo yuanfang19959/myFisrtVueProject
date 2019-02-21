@@ -1,7 +1,7 @@
 <template>
   <div class = "top-container">
     <!-- 顶部区域 -->
-		<mt-header fixed title="首页" ></mt-header>
+		<mt-header fixed title="Sellphone v2.0" ></mt-header>
 		
 		<!-- 中间区域 -->
 		<transition mode="out-in">
@@ -15,14 +15,14 @@
 			</router-link>
 			<router-link class="mui-tab-item1" to="/member" tag="a">
 				<span class="mui-icon mui-icon-extra mui-icon-extra-lamp"></span>
-				<span class="mui-tab-label">会员</span>
+				<span class="mui-tab-label">说明</span>
 			</router-link>
 			<router-link class="mui-tab-item1" to="/shopcar" tag="a">
-				<span class="mui-icon mui-icon-extra mui-icon-extra-gift"><span class="mui-badge" id="numb">{{this.$store.getters.setnum}}</span></span>
+				<span class="mui-icon mui-icon-extra mui-icon-extra-gift"><span class="mui-badge" id="numb">{{$store.getters.setnum}}</span></span>
 				<span class="mui-tab-label">购物车</span>
 			</router-link>
 			<router-link class="mui-tab-item1" to="/search" tag="a">
-				<span class="mui-icon mui-icon-gear"></span>
+				<span class="mui-icon mui-icon-gear"></span> 
 				<span class="mui-tab-label">搜索</span>
 			</router-link>
 		</nav>
@@ -53,6 +53,9 @@
 .v-leave-active{
 	transition: all 0.4s ease;
 }
+.abc {
+  color:red;
+}
 .mui-bar-tab .mui-tab-item1 {
     display: table-cell;
     overflow: hidden;
@@ -62,7 +65,7 @@
     vertical-align: middle;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: #929292;
+    // color: #929292;
 }
 .mui-bar-tab .mui-tab-item1 .mui-icon {
     top: 3px;
@@ -79,5 +82,14 @@
 }
 .top-container{
 	z-index: 99;
+}
+
+a {
+    text-decoration: none;
+    color: #07203c;
+}
+
+.mint-header{
+	background-color:rgb(35, 68, 93);
 }
 </style>

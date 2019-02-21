@@ -16,7 +16,8 @@
 		},
 		methods:{
 			changeNumber(){
-				this.$emit('getCount',this.$refs.number.value)
+				this.$emit('getCount',parseInt(this.$refs.number.value))
+				// console.log(typeof(this.$refs.number.value))
 			}
 		}
 	}

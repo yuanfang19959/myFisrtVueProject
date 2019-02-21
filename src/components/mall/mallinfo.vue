@@ -70,7 +70,9 @@
 				isCenter: true,
 				price: "",
 				flag: false,//设置小球的显示
-				numberFromSon:1//设置numberbox的初始值为1
+				numberFromSon:1,//设置numberbox的初始值为1
+				picture:"",
+				title:""
 			}
 		},
 		created() {
@@ -79,14 +81,16 @@
 		},
 		methods: {
 			addToCar(){
-	  // { id:商品的id, count: 要购买的数量, price: 商品的单价，selected: false  }
+	  // { id:商品的id, count: 要购买的数量, price: 商品的单价，selected: false,picture:this.list.p1 }
       // 拼接出一个，要保存到 store 中 car 数组里的 商品信息对象
 				this.flag=!this.flag;
 				var goods = {
 					id:this.id,
 					count:this.numberFromSon,
 					price:this.price-200,
-					selected:true
+					selected:true,
+					picture:this.picture,
+					title:this.title
 				};
 				this.$store.commit('addtostore',goods);//调用store的mutations，传值
 			},
@@ -101,6 +105,8 @@
 			},
 			getPrice() { //从session中获取价格
 				this.price = sessionStorage.getItem('price')
+				this.picture = sessionStorage.getItem('picture')
+				this.title = sessionStorage.getItem('title')
 			},
 			getDuo(i) {
 				this.$router.push({

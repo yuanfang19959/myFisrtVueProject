@@ -5,11 +5,13 @@
 
 		<!-- 缩略图区域 -->
 		<div class="suo">
-			<vue-preview :slides="slide1" @close="handleClose"></vue-preview>
+			<vue-preview :slides="slide1" @close="handleClose">
+			</vue-preview>
+			<span>点击查看大图</span>
 		</div>
 		<!-- 图片内容区域 -->
 		<div class="content">
-			<p>{{lu.simple}}</p>
+			<p>&nbsp;&nbsp;{{lu.simple}}</p>
 			<!-- <img :src="lu.url" alt=""> -->
 		</div>
 		<!-- 评论子组件 -->
@@ -47,7 +49,7 @@
 				this.$http.get('../src/data/simple.json')
 					.then(resp => {
 						resp.body.info.forEach(item => {
-							item.msrc = "http://106.14.135.233:8080/vuedata/1.jpg"
+							item.msrc = "http://106.14.135.233:8080/vue/news/7.jpg"
 						})
 						this.slide1 = resp.body.info
 					})
@@ -65,15 +67,18 @@
 <style lang="scss" scoped>
 	div {
 		padding: 3px;
-
+		.suo{
+			text-align: center;
+		}
 		h1 {
 			font-size: 18px;
-			color: aquamarine;
+			color:black;
 			text-align: center;
 			line-height: 18px;
+			font-style: blod;
 		}
 		.suo{
-			background-color: black;
+			
 		}
 	}
 </style>

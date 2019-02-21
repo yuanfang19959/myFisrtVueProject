@@ -6,51 +6,51 @@
 			"info":[
 				{   
 					"uid":0,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"君主",
+					"url":"http://106.14.135.233:8080/vue/news/1.jpg",
+					"simple":"世界上仍然最有实权的君主，有军队就有一切 | 地球知识局为了持续向用户提供更优质服务，自3月26日起，通过支付宝给信用卡还款将收取服务费。"
 				},
 				{   
 					"uid":1,
-					"title":"66667",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"氢燃料电池有了技术新突破 纯电动汽车还能买吗?",
+					"url":"http://106.14.135.233:8080/vue/news/2.jpg",
+					"simple":"2018年新能源汽车产销分别完成127万辆和125.6万辆。其中，纯电动汽车产销分别完成98.6万辆和98.4万辆；插电式混合动力汽车产销分别完成28.3万辆和27.1万辆；燃料电池汽车产销均完成1527辆。"
 				},
 				{   
 					"uid":2,
-					"title":"66668",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"3月26日起 支付宝还信用卡超2000元将按0.1%收费",
+					"url":"http://106.14.135.233:8080/vue/news/3.jpg",
+					"simple":"@支付宝发布公告表示，为了持续向用户提供更优质服务，自3月26日起，通过支付宝给信用卡还款将收取服务费。"
 				},
 				{   
 					"uid":3,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
+					"title":"CNN主播邀观众投票判断美为啥打击华为 结果亮了",
+					"url":"http://106.14.135.233:8080/vue/news/4.png",
 					"simple":"this is duola"
 				},
 				{   
 					"uid":4,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"急着嫁出去？44岁林志玲称考虑用交友软件择偶",
+					"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+					"simple":"据台湾媒体报道，林志玲20日晚间出席手游代言活动，外界关心她的感情动向，她还是坚持“单身”，并不是自己太挑"
 				},
 				{   
 					"uid":5,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"你猜到底叫啥 吉利FY11即将公布中文名",
+					"url":"http://106.14.135.233:8080/vue/news/7.jpeg",
+					"simple":"日前，吉利汽车官方宣布，旗下全新轿跑型SUV，也就是此前一段时间炒的火热的FY11将于2月22日正式公布其中文名。"
 				},
 				{   
 					"uid":6,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"谢幕之作 奔驰发布SLC级最终版官图",
+					"url":"http://106.14.135.233:8080/vue/news/7.png",
+					"simple":"日前，奔驰官方发布了SLC级Final Edition（最终版）车型的官图。"
 				},
 				{   
 					"uid":7,
-					"title":"66666",
-					"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-					"simple":"this is duola"
+					"title":"吉利FY11即将公布中文名",
+					"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+					"simple":"Final Edition（最终版）车型的官图"
 				}
 			]
 		},
@@ -58,55 +58,139 @@
         "id":2, 
         	"info":[
         		{   
-        			"uid":8,
-        			"title":"6",
-        			"url":"http://fuss10.elemecdn.com/3/1e/42634e29812e6594c98a89e922c60jpeg.jpeg",
-        			"simple":"this is duola"
-        		},
-        		{   
-        			"uid":9,
-        			"title":"7",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
-        		},
-        		{   
         			"uid":10,
-        			"title":"8",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
+        			"title":"3月26日起 支付宝还信用卡超2000元将按0.1%收费",
+        			"url":"http://106.14.135.233:8080/vue/news/3.jpg",
+        			"simple":"@支付宝发布公告表示，为了持续向用户提供更优质服务，自3月26日起，通过支付宝给信用卡还款将收取服务费。"
         		},
         		{   
         			"uid":11,
-        			"title":"66666",
-        			"url":"http://fuss10.elemecdn.com/b/df/b630636b444346e38cef6c59f6457jpeg.jpeg",
+        			"title":"CNN主播邀观众投票判断美为啥打击华为 结果亮了",
+        			"url":"http://106.14.135.233:8080/vue/news/4.png",
         			"simple":"this is duola"
         		},
+				{   
+					"uid":8,
+					"title":"66666",
+					"url":"http://106.14.135.233:8080/vue/news/1.jpg",
+					"simple":"世界上仍然最有实权的君主，有军队就有一切 | 地球知识局"
+				},
+				{   
+					"uid":9,
+					"title":"氢燃料电池有了技术新突破 纯电动汽车还能买吗?",
+					"url":"http://106.14.135.233:8080/vue/news/2.jpg",
+					"simple":"2018年新能源汽车产销分别完成127万辆和125.6万辆。其中，纯电动汽车产销分别完成98.6万辆和98.4万辆；插电式混合动力汽车产销分别完成28.3万辆和27.1万辆；燃料电池汽车产销均完成1527辆。"
+				},
         		{   
         			"uid":12,
-        			"title":"66666",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
+        			"title":"急着嫁出去？44岁林志玲称考虑用交友软件择偶",
+        			"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+        			"simple":"据台湾媒体报道，林志玲20日晚间出席手游代言活动，外界关心她的感情动向，她还是坚持“单身”，并不是自己太挑"
         		},
         		{   
         			"uid":13,
-        			"title":"66666",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
+        			"title":"你猜到底叫啥 吉利FY11即将公布中文名",
+        			"url":"http://106.14.135.233:8080/vue/news/7.jpeg",
+        			"simple":"日前，吉利汽车官方宣布，旗下全新轿跑型SUV，也就是此前一段时间炒的火热的FY11将于2月22日正式公布其中文名。"
         		},
         		{   
         			"uid":14,
-        			"title":"66666",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
+        			"title":"谢幕之作 奔驰发布SLC级最终版官图",
+        			"url":"http://106.14.135.233:8080/vue/news/7.png",
+        			"simple":"日前，奔驰官方发布了SLC级Final Edition（最终版）车型的官图。"
         		},
         		{   
         			"uid":15,
-        			"title":"66666",
-        			"url":"http://fuss10.elemecdn.com/b/18/0678e57cb1b226c04888e7f244c20jpeg.jpeg",
-        			"simple":"this is duola"
+        			"title":"吉利FY11即将公布中文名",
+        			"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+        			"simple":"Final Edition（最终版）车型的官图"
         		}
         	]
         },
-        { "name":"3", "info":[ "淘宝", "网购" ] }
+        {  "id":3, 
+        	"info":[
+        		{   
+        			"uid":16,
+        			"title":"CNN主播邀观众投票判断美为啥打击华为 结果亮了",
+        			"url":"http://106.14.135.233:8080/vue/news/4.png",
+        			"simple":"this is duola"
+        		},
+        		{   
+        			"uid":17,
+        			"title":"急着嫁出去？44岁林志玲称考虑用交友软件择偶",
+        			"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+        			"simple":"据台湾媒体报道，林志玲20日晚间出席手游代言活动，外界关心她的感情动向，她还是坚持“单身”，并不是自己太挑"
+        		},
+        		{   
+        			"uid":18,
+        			"title":"你猜到底叫啥 吉利FY11即将公布中文名",
+        			"url":"http://106.14.135.233:8080/vue/news/7.jpeg",
+        			"simple":"日前，吉利汽车官方宣布，旗下全新轿跑型SUV，也就是此前一段时间炒的火热的FY11将于2月22日正式公布其中文名。"
+        		},
+        		{   
+        			"uid":19,
+        			"title":"谢幕之作 奔驰发布SLC级最终版官图",
+        			"url":"http://106.14.135.233:8080/vue/news/7.png",
+        			"simple":"日前，奔驰官方发布了SLC级Final Edition（最终版）车型的官图。"
+        		},
+        		{   
+        			"uid":20,
+        			"title":"吉利FY11即将公布中文名",
+        			"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+        			"simple":"Final Edition（最终版）车型的官图"
+        		}
+        	] },
+			{  "id":4, 
+				"info":[
+					{   
+						"uid":21,
+						"title":"氢燃料电池有了技术新突破 纯电动汽车还能买吗?",
+						"url":"http://106.14.135.233:8080/vue/news/2.jpg",
+						"simple":"2018年新能源汽车产销分别完成127万辆和125.6万辆。其中，纯电动汽车产销分别完成98.6万辆和98.4万辆；插电式混合动力汽车产销分别完成28.3万辆和27.1万辆；燃料电池汽车产销均完成1527辆。"
+					},
+					{   
+						"uid":22,
+						"title":"3月26日起 支付宝还信用卡超2000元将按0.1%收费",
+						"url":"http://106.14.135.233:8080/vue/news/3.jpg",
+						"simple":"@支付宝发布公告表示，为了持续向用户提供更优质服务，自3月26日起，通过支付宝给信用卡还款将收取服务费。"
+					},
+					{   
+						"uid":23,
+						"title":"CNN主播邀观众投票判断美为啥打击华为 结果亮了",
+						"url":"http://106.14.135.233:8080/vue/news/4.png",
+						"simple":"this is duola"
+					},
+					{   
+						"uid":24,
+						"title":"急着嫁出去？44岁林志玲称考虑用交友软件择偶",
+						"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+						"simple":"据台湾媒体报道，林志玲20日晚间出席手游代言活动，外界关心她的感情动向，她还是坚持“单身”，并不是自己太挑"
+					},
+					{   
+						"uid":25,
+						"title":"你猜到底叫啥 吉利FY11即将公布中文名",
+						"url":"http://106.14.135.233:8080/vue/news/7.jpeg",
+						"simple":"日前，吉利汽车官方宣布，旗下全新轿跑型SUV，也就是此前一段时间炒的火热的FY11将于2月22日正式公布其中文名。"
+					},
+					{   
+						"uid":26,
+						"title":"谢幕之作 奔驰发布SLC级最终版官图",
+						"url":"http://106.14.135.233:8080/vue/news/7.png",
+						"simple":"日前，奔驰官方发布了SLC级Final Edition（最终版）车型的官图。"
+					},
+					{   
+						"uid":27,
+						"title":"吉利FY11即将公布中文名",
+						"url":"http://106.14.135.233:8080/vue/news/5.jpg",
+						"simple":"Final Edition（最终版）车型的官图"
+					}
+				] 
+			},
+			{ 
+			"id":5, 
+				"info":[
+					
+				]
+			}
     ]
 }

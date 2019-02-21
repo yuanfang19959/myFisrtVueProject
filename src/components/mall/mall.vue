@@ -17,7 +17,7 @@
 		</router-link> -->
 
 		<!-- 使用编程式导航方式 -->
-		<div class="goods" v-for="item in list" :key="item.id" @click="getP(item.id),savePrice(item.price)">
+		<div class="goods" v-for="item in list" :key="item.id" @click="getP(item.id),savePrice(item.price,item.pic,item.name)">
 			<img v-lazy="item.pic">
 			<h1>{{item.name}}</h1>
 			<div class="title">
@@ -73,8 +73,10 @@
 			getP(i){//却别rout一般route用来获取query参数和params的
 				this.$router.push({ name: 'next', params: { id: i }})
 			},
-			savePrice(i){//这边点击事件将价格存入session 以共后面的页面调用
+			savePrice(i,b,t){//这边点击事件将价格存入session 以共后面的页面调用
 				sessionStorage.setItem('price',i)
+				sessionStorage.setItem('picture',b)
+				sessionStorage.setItem('title',t)
 			}
 		}
 	}

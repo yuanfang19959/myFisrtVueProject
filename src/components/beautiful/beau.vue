@@ -101,6 +101,7 @@
 			}
 
 			.info {
+				width:100%;
 				color: white;
 				text-align: left;
 				position: absolute;

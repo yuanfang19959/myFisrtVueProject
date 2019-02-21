@@ -15,6 +15,7 @@ import mallflex from "./components/mall/mallflex.vue"
 import chat from './components/sub/Chat.vue'
 // 3. 创建路由对象
 var router = new VueRouter({
+	linkActiveClass: 'abc',
   routes: [
     { path:'/', redirect:'Home' },
     { path:'/home', component:Home },
@@ -30,8 +31,8 @@ var router = new VueRouter({
 		{ path:'/home/mall/goods/flex/:id', component:mallflex, name:'flex'},
 		{ path:'/home/mall/goods/chat/:id', component:chat, name:'c'}
   ],
-  linkActiveClass:'mui-active'
+ 
 })
 
-// 把路由对象暴露出去
+// 把路由对象暴露出去 
 export default router

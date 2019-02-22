@@ -22868,6 +22868,9 @@ module.exports = "data:application/vnd.ms-fontobject;base64,n04AAEFNAAACAAIABAAA
 //
 //
 //
+//
+//
+//
 
 /***/ }),
 /* 72 */
@@ -24046,7 +24049,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.top[data-v-7cb41050] {\n  height: 40px;\n}\n.mui-card-content-inner[data-v-7cb41050] {\n  display: flex;\n  justify-content: space-between;\n}\n.mui-card-content-inner .red[data-v-7cb41050] {\n    font-style: blod;\n    color: red;\n}\n.content[data-v-7cb41050] {\n  display: flex;\n  justify-content: space-between;\n}\n.content img[data-v-7cb41050] {\n    width: 60px;\n    height: 60px;\n}\n.content .info[data-v-7cb41050] {\n    padding-left: 15px;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: column;\n}\n.content h1[data-v-7cb41050] {\n    font-size: 17px;\n}\n.content .sinfo[data-v-7cb41050] {\n    display: flex;\n}\n.content .sinfo .price[data-v-7cb41050] {\n      color: red;\n}\n.content .sinfo .del[data-v-7cb41050] {\n      color: blue;\n}\n", ""]);
+exports.push([module.i, "\n.top[data-v-7cb41050] {\n  height: 40px;\n}\n.mui-card-content-inner[data-v-7cb41050] {\n  display: flex;\n  justify-content: space-between;\n}\n.mui-card-content-inner .red[data-v-7cb41050] {\n    font-style: blod;\n    color: red;\n}\n.content[data-v-7cb41050] {\n  display: flex;\n  justify-content: space-between;\n}\n.content img[data-v-7cb41050] {\n    width: 60px;\n    height: 60px;\n}\n.content .info[data-v-7cb41050] {\n    padding-left: 15px;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: column;\n}\n.content h1[data-v-7cb41050] {\n    font-size: 17px;\n}\n.content .sinfo[data-v-7cb41050] {\n    display: flex;\n}\n.content .sinfo .price[data-v-7cb41050] {\n      color: red;\n}\n.content .sinfo .del[data-v-7cb41050] {\n      color: blue;\n}\n.mint-search[data-v-7cb41050] {\n  height: 100%;\n}\n", ""]);
 
 // exports
 
@@ -28661,7 +28664,7 @@ exports = module.exports = __webpack_require__(0)(false);
 
 
 // module
-exports.push([module.i, "\n.top-container[data-v-7ba5bd90] {\n  padding-top: 40px;\n  overflow-x: hidden;\n  padding-bottom: 40px;\n}\n.v-enter[data-v-7ba5bd90] {\n  opacity: 0;\n  transform: translateX(100%);\n}\n.v-leave-to[data-v-7ba5bd90] {\n  opacity: 0;\n  transform: translateX(-100%);\n}\n.v-enter-active[data-v-7ba5bd90],\n.v-leave-active[data-v-7ba5bd90] {\n  transition: all 0.4s ease;\n}\n.abc[data-v-7ba5bd90] {\n  color: red;\n}\n.mui-bar-tab .mui-tab-item1[data-v-7ba5bd90] {\n  display: table-cell;\n  overflow: hidden;\n  width: 1%;\n  height: 50px;\n  text-align: center;\n  vertical-align: middle;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.mui-bar-tab .mui-tab-item1 .mui-icon[data-v-7ba5bd90] {\n  top: 3px;\n  width: 24px;\n  height: 24px;\n  padding-top: 0;\n  padding-bottom: 0;\n}\n.mui-bar-tab .mui-tab-item1 .mui-icon ~ .mui-tab-label[data-v-7ba5bd90] {\n  font-size: 11px;\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.top-container[data-v-7ba5bd90] {\n  z-index: 99;\n}\na[data-v-7ba5bd90] {\n  text-decoration: none;\n  color: #07203c;\n}\n.mint-header[data-v-7ba5bd90] {\n  background-color: #23445d;\n}\n", ""]);
+exports.push([module.i, "\n.top-container[data-v-7ba5bd90] {\n  padding-top: 40px;\n  overflow-x: hidden;\n  padding-bottom: 40px;\n  height: 100vh;\n}\n.v-enter[data-v-7ba5bd90] {\n  opacity: 0;\n  transform: translateX(100%);\n}\n.v-leave-to[data-v-7ba5bd90] {\n  opacity: 0;\n  transform: translateX(-100%);\n}\n.v-enter-active[data-v-7ba5bd90],\n.v-leave-active[data-v-7ba5bd90] {\n  transition: all 0.4s ease;\n}\n.abc[data-v-7ba5bd90] {\n  color: red;\n}\n.mui-bar-tab .mui-tab-item1[data-v-7ba5bd90] {\n  display: table-cell;\n  overflow: hidden;\n  width: 1%;\n  height: 50px;\n  text-align: center;\n  vertical-align: middle;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.mui-bar-tab .mui-tab-item1 .mui-icon[data-v-7ba5bd90] {\n  top: 3px;\n  width: 24px;\n  height: 24px;\n  padding-top: 0;\n  padding-bottom: 0;\n}\n.mui-bar-tab .mui-tab-item1 .mui-icon ~ .mui-tab-label[data-v-7ba5bd90] {\n  font-size: 11px;\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.top-container[data-v-7ba5bd90] {\n  z-index: 99;\n}\na[data-v-7ba5bd90] {\n  text-decoration: none;\n  color: #07203c;\n}\n.mint-header[data-v-7ba5bd90] {\n  background-color: #23445d;\n}\n", ""]);
 
 // exports
 
@@ -28683,8 +28686,10 @@ var render = function() {
       _vm._v(" "),
       _c("transition", { attrs: { mode: "out-in" } }, [_c("router-view")], 1),
       _vm._v(" "),
+      _c("div", { staticClass: "cp" }),
+      _vm._v(" "),
       _c(
-        "nav",
+        "footer",
         { staticClass: "mui-bar mui-bar-tab" },
         [
           _c(
@@ -28708,7 +28713,7 @@ var render = function() {
                 staticClass: "mui-icon mui-icon-extra mui-icon-extra-lamp"
               }),
               _vm._v(" "),
-              _c("span", { staticClass: "mui-tab-label" }, [_vm._v("会员")])
+              _c("span", { staticClass: "mui-tab-label" }, [_vm._v("说明")])
             ]
           ),
           _vm._v(" "),

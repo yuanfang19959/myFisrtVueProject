@@ -119,5 +119,7 @@
 		}
 
 	}
-	
+	.mint-search{
+		height: 100%;
+	}
 </style>
